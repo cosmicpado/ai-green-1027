@@ -24,7 +24,7 @@ function render(arr) {
     <div class="card">
       <span class="label">${esc(a.부처)}</span>
       <div class="title">${esc(a.제목)}</div>
-      <div class="body">${esc(a.본문.slice(0, 300))}${a.본문.length > 300 ? '…' : ''}</div>
+      <div class="body">${esc(a.본문)}</div>
     </div>`).join('');
 }
 
